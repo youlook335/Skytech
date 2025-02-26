@@ -1,0 +1,39 @@
+.projectMainContainer{
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  width: 100%;
+}
+.project-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  gap: 100px;
+  /* background-color: aqua; */
+}
+.project-items img{
+  width: 80%;
+}
+
+.headingHome{
+  margin-top: 100px;
+}
+.projectHeading{
+  font-size: calc(20px + 1vw);
+}
+
+
+/* 🔹 Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .projectMainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    flex-direction: row;
+    width: 100%;
+  }
+}

@@ -1,0 +1,341 @@
+.servicesContainer{
+  width: 80%;
+  margin: auto;
+  margin-left: auto !important;
+  /* background-color: #227ab4; */
+}
+
+.package-section {
+  margin-bottom: 50px;
+}
+.package-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 20px #c1c1c1, -10px -10px 20px #ffffff;
+}
+.package-title {
+  color: #149af3;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.service-icon {
+  color: #149af3;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.package-price {
+  color: #149af3;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.container {
+  margin-top: 50px;
+    padding: 0 15px;
+  }
+  .benefits{
+    font-size: 16px;
+  }
+  .slider-element {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .slider-element {
+      padding: 5px;
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+    .slider-element {
+      padding: 0;
+      margin-bottom: 10px;
+    }
+ 
+  }
+  
+  .softwareIcons{
+    color: #149af3;
+  }
+.slider{
+  width: 20%;
+  background-color: blue;
+}
+
+  .Software-card{
+    position: relative;
+    padding: 20px;
+  height: 900px;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+   
+  } 
+  /* Card Styling */
+  .card {
+    position: relative;
+    padding: 20px;
+  height: 390px;
+  background-color: #227ab4 ;
+    margin-top: 100px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #149af3;
+    margin-bottom: 10px;
+  }
+  
+  .card-title:hover {
+    color: #227ab4;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .prices {
+    font-size: 0.95rem;
+    color: #333;
+    padding-top: 10px;
+    margin-left: -20px;
+    line-height: 1.5;
+  }
+  
+  .priceIcons {
+    font-size: 1.5rem;
+    color: #227ab4;
+    margin-right: 10px;
+  }
+  
+  /* Service Logo Styling */
+  .serviceLogo {
+      box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    z-index: 10;
+    top: -25px;
+  }
+  
+  .serviceLogo .sky {
+    font-size: 20px;
+    font-weight: bold;
+    color: #149af3;
+  }
+  
+  .serviceLogo .tech {
+    font-size: 20px;
+    color: #474343;
+  }
+  
+  .serviceLogo .dot {
+    font-size: 30px;
+    color: #149af3;
+    margin-left: -5px;
+  }
+  .actualPrice{
+      font-size: 17px;
+      font-weight: bold;
+  }
+  .specialBtn{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+  .btnSpecial{
+    border: 2px solid #149af3;
+    padding: 12px;
+    font-size: 20px;
+  }
+  .btnSpecial:hover{
+    color: #149af3;
+    transition: 1s ease-in-out 0.5s;
+  }
+  /* Media Queries for All Devices */
+  @media (max-width: 1200px) {
+    .card {
+      margin-left: 10% !important;
+      height: 500px;
+      padding: 15px;
+    }
+    .card-title {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .card {
+      height: 550px;
+      margin-left: 10% !important;
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+    .Software-card{
+      height: auto;
+      }  
+      
+    .priceIcons {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .container {
+        width: 0px;
+        margin: 0px !important;
+        padding: 15px;
+    }
+}
+  @media (max-width: 768px) {
+    .servicesContainer{
+      width: auto;
+      /* background-color: #227ab4; */
+      margin-left: -20px;
+    }  .servicesContainer{
+      width: auto;
+      /* background-color: #227ab4; */
+      margin-left: -20px;
+    }
+    .slider-element {
+      padding: 0 10px;
+    }
+  
+    .card {
+      height: 600px;
+      width: 100%;
+      padding: 10px;
+      margin-left: 10% !important;
+    }
+    .Software-card{
+      height: auto;
+      }  
+      
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .priceIcons {
+      font-size: 0.95rem;
+    }
+  
+    .serviceLogo {
+      left: 10px;
+      padding: 3px 8px;
+    }
+  
+    .serviceLogo .sky,
+    .serviceLogo .tech {
+      font-size: 16px;
+    }
+  
+    .serviceLogo .dot {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .servicesContainer{
+      width: auto;
+      /* background-color: #227ab4; */
+      margin-left: -40px;
+    }
+   
+  .Software-card{
+  height: auto;
+  }  
+  .card {
+    margin-left: 1% !important;
+      width: auto;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .card-title {
+      font-size: 2rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .prices {
+      font-size: 0.85rem;
+    }
+  
+    .priceIcons {
+      font-size: 0.85rem;
+    }
+  
+    .serviceLogo {
+      width: 100px;
+      left: 5px;
+      height: 50px;
+      padding: 2px 5px;
+    }
+  
+    .serviceLogo .sky,
+    .serviceLogo .tech {
+      font-size: 20px;
+    }
+    .slick-prev::before, .slick-next::before{
+  display: none;
+  }
+  
+  
+    .serviceLogo .dot {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+    }
+}

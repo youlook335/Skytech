@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto";
+    /* background-color: #149af3; */
+}
+
+.text-primary {
+    color: #149af3 !important;
+}
+.bg-primary {
+    background-color: #149af3 !important;
+}
+.btn-primary {
+    background-color: #149af3 !important;
+}
+.btn-outline-primary {
+    border: 1px solid #149af3 !important;
+}

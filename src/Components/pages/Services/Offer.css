@@ -1,0 +1,103 @@
+.services-offers {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+    gap: 5rem;
+  }
+  
+  /* Animated Offer Box */
+  .offer-box {
+    margin: auto;
+    background: linear-gradient(9deg, #149AF3 ,#c2c0c0); /* Gradient background */
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    width: 40%;
+    height: 550px;
+    text-align: center;
+   }
+  
+  /* Offer Title */
+  .offer-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f8fafc;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  
+  /* Offer Paragraph */
+  .offer-paragraph {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    animation: fade-in 1.5s ease;
+  }
+  
+  /* Offer List */
+  .offer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .offer-item {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #f8fafc;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .offer-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+   .offer-link {
+    text-decoration: none;
+    color: #f8fafc;
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .actual-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    animation: fade-up 1s ease;
+  }
+  .offerBtn{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   width: auto;
+border-radius: 10px;
+   background-color: white;
+  }
+  .offerBtn button{
+    font-size: 20px;
+    color: #149AF3;
+    padding-bottom: 10px;
+  }
+
+  
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 576px) {
+}

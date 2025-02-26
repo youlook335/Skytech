@@ -1,0 +1,122 @@
+.lastsection{
+    background-color: #191c29;
+    height: auto;
+    padding: auto;
+    padding-top:40px ;
+    padding-bottom: 30px;
+}
+.lastheading{
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+    
+
+}
+.weith{
+    width: 80%;
+    margin: auto;
+}
+.para{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    font-weight: 400;
+}
+.digital-btn {
+    position: absolute;
+    bottom: 25px;
+}
+.digital-cont {
+    position: relative;
+}
+.picimg{
+    /* width: 20px; */
+    /* margin-top: 60px; */
+    /* margin: auto; */
+    border-radius: 10px;
+    max-height: 100vh;
+    margin-top: 20vh;
+    width: 50vw;
+}
+.webdevcont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    padding: 10px 50px;
+}
+
+.webdevcard {
+    width: 100%;
+}
+
+.wordpressShopify {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 50px;
+    gap: 35px;
+}
+
+.wordpressShopify img {
+    width: 100%;
+}
+
+.wordpressShopify div {
+    padding: 20px 0;
+}
+
+.wordpressShopify h3 {
+    text-transform: uppercase;
+    color: #149af3;
+    font-size: 20px;
+}
+
+.wordpressShopify h1 {
+    font-size: 32px;
+}
+
+.progress-bar {
+    background-color: #eee;
+    height: 7px;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 3.5px;
+}
+
+.webdevprogress p{
+    padding: 0 !important;
+    margin: 20px 0 0 0 !important;
+}
+
+.progress-bar-value {
+    background-color: #149af3;
+    border-radius: 3.5px !important;
+}
+
+@media (max-width: 1200px) {
+    .webdevprogress {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width:960px) {
+    .webdevcont {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 35px;
+    }
+    .wordpressShopify {
+        grid-template-columns: 1fr;
+    }
+    .wordpressShopify img {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+    }
+}
+@media (max-width: 460px) {
+    .webdevcont {
+        grid-template-columns: 1fr;
+    }
+    .wordpressShopify img {
+        width: 100%;
+    }
+}

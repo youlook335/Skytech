@@ -1,0 +1,83 @@
+/* General Styles for Project Content */
+.project-content img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-content:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* For all devices */
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-content {
+    padding: 10px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.project-content a {
+    display: block;
+}
+
+.project-content img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .row {
+        display: block;
+        margin-top: 15px;
+    }
+    
+    .col-md-4, .col-sm-6, .col-12 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .col-md-4, .col-sm-6, .col-12 {
+        width: 48%; /* Two columns on tablets */
+        margin-bottom: 15px;
+    }
+}
+
+/* Large devices (desktops, 769px and up) */
+@media only screen and (min-width: 769px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .col-md-4, .col-sm-6, .col-12 {
+        width: 30%; /* Three columns on larger devices */
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+    }
+}

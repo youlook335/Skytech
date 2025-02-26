@@ -1,0 +1,81 @@
+/* Section Styling */
+.custom-banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d7cc9; 
+    padding: 40px 20px;
+  }
+  
+  .custom-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+  }
+  
+  .custom-banner-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .custom-banner-left {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .custom-banner-heading h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .custom-banner-text p {
+    font-size: 19px;
+    color: #c7c7c7;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .custom-banner-right {
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .custom-banner-button .button {
+    padding: 12px 30px;
+    background-color: #149af3; 
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-banner-button .button:hover {
+    background-color: #0d7cc9; 
+  }
+  
+  @media (max-width: 768px) {
+    .custom-banner-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .custom-banner-left,
+    .custom-banner-right {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  

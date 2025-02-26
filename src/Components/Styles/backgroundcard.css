@@ -1,0 +1,122 @@
+.services-section {
+  padding: 50px 0;
+  background-color: #171a2a;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+}
+.service-card {
+  background-color: #1e2236;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  /* object-fit: cover; */
+}
+.service-card1:hover {
+  background-image: url("../../../public//assets//background/image1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.service-card2:hover {
+  background-image: url("../../../public//assets//background/image2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.service-card3:hover {
+  background-image: url("../../../public//assets//background/image3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.service-card4:hover {
+  background-image: url("../../../public//assets//background/image4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.service-card-text {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.service-card:hover > div {
+  background-color: #000000aa;
+}
+
+.service-icon {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.service-card:hover .service-title {
+  color: #007bff;
+}
+
+.service-description {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.service-card:hover .service-description {
+  color: #495057;
+}
+
+.service-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* .service-title a:hover {
+    color: #0056b3;
+  } */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .service-card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    width: 100%;
+  }
+}

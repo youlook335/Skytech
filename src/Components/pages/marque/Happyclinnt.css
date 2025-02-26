@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmuque{
+  width: 90vw;
+  margin: auto;
+  /* background: #000; */
+  /* height: 100vh; */
+  
+}
+
+
+.imgwith {
+    margin: 0px 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgwith img {
+    width: 100%;
+    max-width: 150px; 
+    height: auto; 
+  }
+  
+  .happyclint {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .patners{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    .clientBlue{
+      margin-left: 12px;
+      color: #149af3;
+
+    }
+  
+  /* @media (max-width: 1024px) {
+    
+    .happyclint {
+      font-size: 38px;
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+   
+    .happyclint {
+      font-size: 24px;
+    }
+    
+  } */
+  
+  /* @media (max-width: 480px) { */
+    
+    /* .happyclint {
+      font-size: 32px;
+    } */
+    /* .imgwith img {
+      max-width: 100px; 
+    }
+  } */
+  

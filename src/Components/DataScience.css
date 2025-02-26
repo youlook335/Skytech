@@ -1,0 +1,67 @@
+/* General Container */
+
+  
+  /* Heading Section */
+  .ile-content-box  .ile-title {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .ile-content-box  p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.7;
+    padding: 0 10px;
+  }
+  
+  /* Service Card Container */
+  .ile-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ile-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title Styling */
+  .ile-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  /* Content Styling */
+  .ile-content {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .col-lg-6 {
+      flex: 0 0 48%;
+      max-width: 48%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  

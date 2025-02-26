@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icons-wastapp{
+    opacity: 1;
+    border-radius: 20%;
+    font-size: 70px;
+    position: fixed;
+    left: 95%;
+    z-index: 999;
+    bottom: 25px;
+}
+.icons-wastapp a{
+    color:#28D146;
+}
+.icons-wastapp a img{
+    width: 50px;
+    border-radius: 10px;
+}
+.icons-wastapp a:hover{
+    color:  #5FFC7B;
+}
+
+@media (max-width: 992px) {
+    .icons-wastapp{
+        left: 80%;
+    }  
+    
+}
+@media (max-width: 576px) {
+    .icons-wastapp{
+    left: 80%;
+}  
+}

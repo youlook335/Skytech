@@ -1,0 +1,192 @@
+.services-offers2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .containerOffer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .offer-boxes {
+    background: linear-gradient(145deg, #f0f4f8, #e1e8ed);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .offer-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .offer-title2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #149af3;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .offer-title:hover {
+    color: #0067d4;
+  }
+  
+  .offer-paragraph2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #4e5b6e;
+    animation: fade-in 1s ease;
+  }
+  
+  .offer-list2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .offer-item {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .offer-item:hover {
+    background-color: #f1f4f9;
+    transform: scale(1.05);
+  }
+  
+  .offer-link {
+    text-decoration: none;
+    color: #0067d4;
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-link:hover {
+    color: #149af3;
+  }
+  
+  .price-icon {
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+  }
+  
+  .actual-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    animation: fade-up 1s ease;
+  }
+  
+  .offerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #149af3;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offerBtn:hover {
+    background-color: #0067d4;
+  }
+  
+  .offerBtn button {
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    margin-bottom: 4px;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 1200px) {
+    .services-offers {
+      gap: 1.5rem;
+    }
+  
+    .offer-box {
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .offer-box {
+      max-width: 48%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .offer-box {
+      max-width: 100%;
+    }
+  
+    .offer-title {
+      font-size: 2rem;
+    }
+  
+    .offer-paragraph {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .offer-box {
+      padding: 1.5rem;
+    }
+  
+    .offer-title {
+      font-size: 1.8rem;
+    }
+  
+    .offer-paragraph {
+      font-size: 0.9rem;
+    }
+  }

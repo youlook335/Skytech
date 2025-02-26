@@ -1,0 +1,395 @@
+/* General styles */
+.aboutSec3 {
+  display: flex;
+  flex-direction: row;
+}
+.textMission {
+  text-align: left;
+  width: 20%;
+  height: 20%;
+  /* background-color: r ed; */
+  font-size: calc(20px + 0.2vw);
+}
+.imagelog img {
+  width: 400px;
+}
+.Aboutpara{
+  font-size: 19px;
+}
+.boxc img {
+  width: 50%;
+}
+.line{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #149af3;
+  width: 2px;
+  margin: 10px;
+}
+.vision {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.boxc {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.container0aboutSec {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+}
+.aboutSec {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutSec2 {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+.aboutMainContainer {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.our {
+  color: black;
+}
+
+.headingText {
+  margin: auto;
+      width: 100%;
+    font-size: calc(20px + 0.2vw);
+  /* background-color: #149af3; */
+}
+
+.objectiveHeading {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container11aboutSec,
+.container17aboutSec,
+.container1aboutSec {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.box12aboutSec,
+.box10aboutSec,
+.box11aboutSec {
+  width: 48%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.box12aboutSec img,
+.box10aboutSec img,
+.box11aboutSec img {
+  width: 100%;
+  height: auto;
+}
+
+.logoAbout {
+  margin: 100px 0 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.objectiveContaint {
+  margin-bottom: 100px;
+}
+.textaboutDeliber{
+  font-size: 20px;
+}
+.box22aboutSec {
+  margin-top: 120px;
+  width: 48%;
+  padding: 20px;
+}
+.box22aboutSec ul li{
+  font-size: 20px;
+}
+
+.yaaboutSec {
+  color: #149af3;
+}
+
+.commaboutSec {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commaboutSec li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.commaboutSec img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.paboutSec {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.box29aboutSec {
+  margin-top: 120px;
+  width: 48%;
+  flex: 1;
+  padding: 20px;
+}
+
+.box21aboutSec {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Media Queries for responsiveness */
+/* General styles */
+.aboutSec3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.textMission {
+  
+  width: 100%;
+  font-size: 20px
+}
+.Aboutpara {
+  font-size: 19px;
+}
+
+.boxc img {
+  width: 40%;
+}
+
+.line {
+  display: block;
+  background-color: #149af3;
+  width: 2px;
+  margin: 10px 20px;
+  height: 100%;
+}
+
+/* Small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  .aboutSec3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Line between divs, on small screens it becomes vertical */
+  .line {
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+  }
+
+  .box29aboutSec,
+  .box22aboutSec {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .textMission {
+    align-items: center;
+  }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (max-width: 768px) {
+  .aboutSec3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line {
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+  }
+
+  .box29aboutSec,
+  .box22aboutSec {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  .aboutSec3 {
+    margin: 0 -20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .line{
+  flex-direction: column;
+  }
+
+  .textMission {
+    padding: 30px;
+    /* background-color: aqua; */
+    width: auto;
+    margin: auto;
+  }
+  .aboutMainContainer {
+    /* background-color: blue; */
+    margin: auto;
+    width: 100%;
+    /* padding: 0 10px; */
+  }
+  
+  .container11aboutSec,
+  .container17aboutSec,
+  .container1aboutSec {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20%;
+  }
+
+  .box12aboutSec img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .headingText {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .commaboutSec img {
+    width: 16px;
+    height: 16px;
+  }
+  .imagelog img {
+    width: 80% !important;
+margin : 10%
+  }
+  /* Stacking box elements vertically on small screens */
+  .box12aboutSec,
+  .box10aboutSec,
+  .box11aboutSec,
+  .box22aboutSec,
+  .box29aboutSec,
+  .box21aboutSec {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (max-width: 768px) {
+  .aboutSec3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutMainContainer {
+    /* background-color: antiquewhite; */
+    margin: auto;
+    width: 80%;
+  }
+
+  .box12aboutSec,
+  .box10aboutSec,
+  .box11aboutSec {
+    width: 100%;
+  }
+
+  .box22aboutSec {
+    width: 100%;
+  }
+  .logoAbout {
+    /* background-color: #149af3; */
+    margin-top: -40px;
+  }
+  .logoAbout img {
+    /* background-color: #149af3; */
+    width: 90%;
+  }
+  .box29aboutSec,
+  .box21aboutSec {
+    width: 100%;
+  }
+
+  .headingText {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
+
+/* Larger devices (desktops, 769px and up) */
+@media only screen and (min-width: 769px) {
+  .aboutSec3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .aboutMainContainer {
+    width: 70%;
+  }
+
+  .box12aboutSec,
+  .box10aboutSec,
+  .box11aboutSec {
+    width: 48%;
+  }
+
+  .box22aboutSec {
+    width: 48%;
+  }
+
+  .headingText {
+    font-size: 2em;
+  }
+  .imagelog img {
+    width: 100% !important;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+}

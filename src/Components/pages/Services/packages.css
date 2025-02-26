@@ -1,0 +1,154 @@
+.blue{
+    color: #149af3;
+text-transform: capitalize;
+}
+.mainContainer {
+    /* width: 1600px; Remove fixed width for responsiveness */
+    width: 100%; /* Make the container take full width */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.cardMain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center cards on the page */
+}
+
+.cardContainer {
+    background-color: #149af3;
+    width: 30%; /* Default to 30% width for larger screens */
+    border-radius: 8px;
+    height: 800px;
+    margin: 10px; /* Added margin for spacing */
+}
+
+.cardStyle {
+    background-color: white;
+    height: 100%;
+    border-radius: 100px 0 100px 0;
+}
+
+.PlanTitle {
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cardTitle {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    padding: 10px;
+    color: white;
+    background-color: #149af3;
+}
+
+.cardPlan {
+    font-weight: bolder;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.textPeriod {
+    color: #149af3;
+}
+
+/* Boxes Section */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15px; */
+}
+
+.featureBox {
+    width: 90%;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: -20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Modern rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.featureBox:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.featureIcons {
+    font-size: 24px;
+    color: #149af3; /* Icon color matches the theme */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .cardContainer {
+        width: 45%; /* Adjust width for tablet screens */
+    }
+
+    .cardTitle {
+        font-size: 2rem; /* Adjust title font size */
+    }
+
+    .cardPlan {
+        font-size: 1.5rem; /* Adjust plan font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .cardContainer {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Adjust card height */
+    }
+
+    .cardTitle {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .cardPlan {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+
+    .boxes {
+        justify-content: space-between;
+    }
+
+    .featureBox {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardContainer {
+        height: auto; /* Adjust height for mobile screens */
+    }
+
+    .cardStyle {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .featureBox {
+        padding: 10px; /* Adjust box padding */
+    }
+
+    .featureIcons {
+        font-size: 18px; /* Smaller icons for mobile */
+    }
+}

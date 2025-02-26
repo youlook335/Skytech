@@ -1,0 +1,30 @@
+/* General Styling for Images */
+.containerSliderImg {
+    height: 50%;
+  }
+  .digital-heading{
+    font-size: 40px;
+  }
+  /* Ensure images are responsive */
+  .containerSliderImg img {
+    width: 100%; /* Full-width on all screen sizes */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Mobile View: Adjust slider for smaller screens */
+  @media (max-width: 768px) {
+    .containerSliderImg {
+      width: 100%;
+      height: 30%; /* Set height for mobile screens */
+    }
+    
+    .slick-slide img {
+      width: 100%; /* Ensure images fit inside the container */
+    }
+    
+    /* Adjust height of images for better mobile viewing */
+    .slick-container img {
+      height: auto; /* Let images maintain their aspect ratio */
+    }
+  }
+  

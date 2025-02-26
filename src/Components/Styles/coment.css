@@ -1,0 +1,100 @@
+#card {
+  height: 100%;
+  border: 2px solid #149af3;
+  border-radius: 12px;
+}
+.img img {
+  width: 27%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+.img-star {
+  display: flex;
+  flex-direction: row; /* Stack stars vertically on small screens */
+  padding-bottom: 15px;
+  align-items: center; /* Center align stars */
+  justify-content: space-between;
+}
+.firstAlphaDiv {
+  background-color: #09202e;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  height: 50px;
+  color: white;
+}
+.firstAlphaDiv {
+  font-size: 16px;
+  font-weight: bold;
+}
+.review {
+  display: flex;
+  margin-left: 40%;
+  /* justify-content: end; */
+  /* align-items: end; */
+}
+.review i {
+  cursor: pointer;
+  color: rgb(231, 190, 5);
+  padding: 0 10px;
+}
+.btn-arrow {
+  margin: 20px 18px;
+  border-radius: 20px;
+  border: 2px solid black;
+  color: black;
+}
+.btn-arrow:hover {
+  background-color: #149af3;
+  color: white;
+}
+.Comment-container {
+  width: 80%;
+  margin-left: 200px;
+  min-height: 550px; /* Use min-height for better flexibility */
+  padding: 20px;
+}
+.client-btn {
+  font-size: 14px;
+  display: block;
+  /* margin: 0 auto; Center-align button */
+}
+.client-name-section {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .Comment-container {
+    margin: auto;
+    min-height: 780px;
+  }
+  .img img {
+    width: 20vw;
+    margin-bottom: 20px;
+  }
+  .img-star {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    /* gap: 10px;  */
+  }
+  .btn-arrow {
+    /* margin: 20px 18px; */
+    padding: 7px;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: black;
+  }
+  .coment-content {
+    text-align: center;
+  }
+  .review {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}

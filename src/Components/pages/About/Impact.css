@@ -1,0 +1,252 @@
+.aboutHeading{
+    display: flex;
+margin-bottom: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 100px;
+}
+.mainAboutContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    /* background-color: #f9f9f9; */
+  }
+  .content p {
+    font-size: 20px !important;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+  .why-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .why-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #149af3; /* Primary color */
+    margin-bottom: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .content h3::after,
+  .content h3::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #149af3;
+    margin: 0.5rem auto;
+  }
+  
+  /* Styling the paragraph */
+  .content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutHeading{
+    width: auto;
+    font-size: 25px;
+    }
+    .mainAboutContainer {
+      grid-template-columns: 1fr;
+    }
+  
+    .why-item {
+      padding: 1rem;
+    }
+  }
+  
+/* .impact {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.impact h1, .impact p {
+    padding: 10px;
+}
+
+.impact p {
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 65%;
+    justify-self: center;
+    gap: 35px;
+}
+.col1-row1 {
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+    background-color: #149af3;
+    color: white;
+    border-radius: 25px;
+    margin: 15px 0;
+    transition: ease-in-out;
+}
+.col1-row1:hover {
+    transform: translateY(-10px);
+}
+.col2:hover {
+    transform: translateY(-10px);
+}
+.sub-1:hover {
+    transform: translateY(-10px);
+}
+.sub-2:hover {
+    transform: translateY(-10px);
+}
+.col1-row1 h2, .col1-row1 h3, .col1-row1 p{
+    padding: 10px;
+}
+
+.col1-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sub-1 {
+    padding: 25px;
+    background-color: #ff9a26;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 25px;
+}
+.sub-2 {
+    box-shadow: 5px 5px 10px black;
+    padding: 25px;
+    background-color:       #ff6d48;
+    color: white;
+    border-radius: 25px;
+}
+.col1-row1 h3 {
+    font-size: 22px;
+    color: white;
+}
+.sub-1 i, .sub-1 h2, .sub-1 h4, .sub-2 i, .sub-2 h2, .sub-2 h4{
+    padding: 4px;
+}
+
+.sub-1 i, .sub-2 i {
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.col2 {
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px 0;
+    margin: 25px 0 0 0;
+    position: relative;
+    background-image: url('./images/bg-texture.jpg');
+}
+.col2-text {
+    position: absolute;
+    bottom: 35px;
+    padding: 0 15px;
+}
+
+.col2-text h1 {
+    font-size: 36px;
+}
+
+.col2-text h3 {
+    font-size: 24px;
+    color: black;
+}
+
+.col2-text p {
+    font-weight: 600;
+}
+.col2-img1 {
+    position: absolute;
+    width: 33%;
+    aspect-ratio: 1/1;
+    transform: translate(-100%, 0);
+    top: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.col2-img2 {
+    position: absolute;
+    width: 25%;
+    aspect-ratio: 1/1;
+    transform: translate(50%, 0);
+    top: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+@media (max-width: 1200px){
+        .grid {
+            width: 65%;
+
+        }
+}
+@media (max-width: 768px){
+    .grid {
+        width: 80%;
+
+    }
+}
+@media (max-width: 640px){
+    .grid {
+        width: 90%;
+    }
+    .col2-text h1 {
+        font-size: 30px;
+    }
+    
+    .col2-text h3 {
+        font-size: 20px;
+    }
+    
+    .col2-text p {
+        font-weight: 100;
+    }
+}
+@media (max-width: 540px){
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .sub-1, .sub-1 {
+        padding: 5px;
+    }
+    .col2-text {
+        position: static;
+    }
+    .col2 {
+        margin-top: 10px;
+    }
+} */

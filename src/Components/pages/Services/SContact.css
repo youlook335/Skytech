@@ -1,0 +1,111 @@
+/* Main container for the contact section */
+.mainContactyServices {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text */
+  padding: 40px 20px; /* Spacing */
+  background-color: #f1f1f1; /* Light background color */
+}
+
+/* Heading styling */
+.mainContactyServices h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+.mainContactyServices p {
+  font-size: 18px;
+  color: #555; /* Light gray text */
+}
+/* Container for the ServicesContact section */
+.servicesContact {
+  text-align: center;
+  padding: 20px 20px;
+  /* background-color: #f9f9f9; */
+}
+
+/* Title styling */
+.servicesContact h2 {
+  font-size: calc(32px + 1.5vw);
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Description styling */
+.servicesContact p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Flexbox container for social icons */
+.socialicons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Styling for individual icon items */
+.socialIconItem {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #149af3 2px solid;
+  background-color: white; /* Icon background color */
+  border-radius: 50%; /* Circle shape */
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+/* Hover effect for the icon items */
+.socialIconItem:hover {
+  background-color: #0077b5; /* Change color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Styling for the individual social media links */
+.socialLink {
+  font-size: 24px;
+  color: #149af3;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on the link */
+.socialLink:hover {
+  color: #f1f1f1;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .socialicons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .servicesContact {
+    height: 40vh;
+  }
+  .servicesContact {
+    height: 30vh;
+  }
+  .socialIconItem {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 480px) {
+.servicesContact {
+  height: 50vh;
+}
+}

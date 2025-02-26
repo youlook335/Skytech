@@ -1,0 +1,51 @@
+/* TechStack.css */
+.tech-stack {
+    padding: 50px;
+    background-color: #f4f7fa;
+    text-align: center;
+  }
+  
+  .tech-stack h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .tech-stack p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .tech-stack-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .tech-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .tech-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .tech-item p {
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .tech-item svg {
+    margin-bottom: 15px;
+  }
+  

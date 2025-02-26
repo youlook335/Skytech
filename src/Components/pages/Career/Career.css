@@ -1,0 +1,74 @@
+.professionalTeamGrid {
+  display: flex;
+
+  gap: 35px;
+}
+.professionalTeamGrid img {
+  width: auto;
+}
+.professionalTeamDetails {
+  /* background-color: aqua; */
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-muted{
+  font-size: 20px;
+}
+.professionalTeamDetails h1{
+  /* align-items: left; */
+  text-align: left;
+  margin-left: 5px;
+  width: 100%;
+  /* background-color: #080b24; */
+}
+.readyToWork {
+  background-color: #080b24;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  flex-direction: column;
+}
+.career-options {
+  margin-top: -100px;
+  padding: 50px 0;
+}
+.career-options h1 {
+  font-size: 40px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .professionalTeamGrid {
+    display: flex;
+  flex-direction: column;
+    gap: 35px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .professionalTeamGrid {
+    display: flex;
+  flex-direction: column;
+    gap: 35px;
+  }
+}
+@media (max-width: 565px) {
+  .professionalTeamGrid {
+      grid-template-columns: 1fr;
+  }
+  .professionalTeamGrid img {
+      padding: 0 70px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+      width: 100%;
+      margin: 0px;
+      padding: 15px;
+  }
+}

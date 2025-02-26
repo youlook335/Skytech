@@ -1,0 +1,22 @@
+/* NotFound.css */
+
+.not-found-container {
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .heelo {
+    font-size: 10rem;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+  }
+  
+  .go-btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  

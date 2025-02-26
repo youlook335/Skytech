@@ -1,0 +1,63 @@
+.card-service {
+  height: 285px;
+}
+.card-para{
+  height: 160px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.mainService{
+  /* background-color: aqua; */
+  width: 80%;
+  margin: auto;
+}
+.btn {
+  font-size: 13px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #0056b3;
+  box-shadow: 0 4px 10px rgba(0, 91, 255, 0.5);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+.card-logo img {
+  height: 48px;
+  width: 48px;
+}
+h4 {
+  font-size: 20px !important;
+}
+.card-para {
+  font-weight: 500;
+}
+.btn-outline-light {
+  border: 1px solid white;
+}
+.service-img-alt-icons {
+  font-size: 30px;
+  color: #149af3;
+};
+.servicesDescription{
+  height: 100px;
+}
+@media screen and (max-width: 1024px) {
+  .card-para{
+    height: 150px;
+    font-size: 12px;
+    /* line-height: 1.2px; */
+  }
+}

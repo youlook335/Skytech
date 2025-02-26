@@ -1,0 +1,149 @@
+
+  .goal-title {
+    font-size: 1.8rem !important;
+    /* background: #000; */
+    height: 70px;
+    color: #333;
+    margin-bottom: 15px;
+}
+  /* Container for the guiding principles section */
+  .guiding-principles {
+    padding: 60px 20px;
+    background-color: #f4f7fb;
+    text-align: center;
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Timeline container */
+  .timeline {
+    position: relative;
+    /* max-width: 900px; */
+    /* margin: 0 auto; */
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Timeline item styles */
+  .timeline-item {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    opacity: 0; /* Start hidden */
+    transition: all 0.5s ease;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .principle-title{
+    font-size: 30px !important;
+    /* background-color: #333; */
+  }
+  .principle-description{
+    font-size: 20px !important;
+  }
+  /* Content of each timeline item */
+  .timeline-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width of each item */
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Add vertical line in the middle */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  /* Circular markers at each timeline item */
+  .timeline-item::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+   
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  /* Circular marker for the current item */
+  .timeline-item.current::after {
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  /* Left and right alignment of the items */
+  .timeline-item.left {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  
+  .timeline-item.right {
+    justify-content: flex-end;
+    margin-right: 0;
+  }
+  
+  /* When the item appears */
+  .timeline-item[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Make the layout responsive */
+  @media (max-width: 768px) {
+   .section-title{
+    font-size: 25px;
+   }
+    .timeline {
+      padding: 0 15px;
+    }
+  
+    .timeline-item {
+      padding: 15px;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+  
+    .timeline-item::before {
+      left: 30px;
+      width: 2px;
+      transform: translateX(0);
+    }
+  }
+  

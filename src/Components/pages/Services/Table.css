@@ -1,0 +1,232 @@
+  .TableContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+.tableHeading{
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ecf0f1;
+  }
+  
+  tr:hover {
+    background-color: #dfe6e9;
+    cursor: pointer;
+  }
+  
+  .main th {
+    background-color: #2980b9;
+  }
+  
+  td {
+    vertical-align: top;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  thead {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  thead th {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 2.2em;
+    }
+  
+    th,
+    td {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    table {
+      font-size: 0.9em;
+    }
+  
+    th,
+    td {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    .container {
+      width: 95%;
+    }
+  
+    table {
+      font-size: 0.8em;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+    }
+  
+    .container {
+      width: 100%;
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    table {
+      font-size: 0.75em;
+    }
+  
+    th,
+    td {
+      padding: 6px;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .container {
+      padding: 10px;
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.2em;
+    }
+  
+    th,
+    td {
+      padding: 5px;
+    }
+  
+    table {
+      font-size: 0.6em;
+    }
+  
+    th,
+    td {
+      text-align: center;
+    }
+  
+    tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    tr:nth-child(even) {
+      background-color: transparent;
+    }
+  
+    tr:hover {
+      background-color: transparent;
+    }
+  
+    .main th {
+      background-color: transparent;
+    }
+  
+    td,
+    th {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  @media (max-width: 200px) {
+    body {
+      font-size: 0.7em;
+    }
+  
+    .container {
+      padding: 5px;
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.2em;
+    }
+  
+    th,
+    td {
+      padding: 4px;
+    }
+  
+    table {
+      font-size: 0.5em;
+    }
+  
+    th,
+    td {
+      text-align: center;
+    }
+  
+    tr {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }

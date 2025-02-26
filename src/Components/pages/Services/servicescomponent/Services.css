@@ -1,0 +1,123 @@
+.offers div {
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+    margin: 30px 10px !important;
+    padding: 7px 50px !important;
+    transform: skew(0deg, -5deg) ; 
+    overflow: visible;
+    box-shadow: 5px 5px 15px #149af3;
+}
+
+.services-card {
+    /* width: 300px; */
+    padding: 20px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 280px;
+
+}
+
+
+.services-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border:2px solid #149af3;
+}
+
+.services-card:hover .heading4 {
+    color: #149af3; 
+}
+
+.services-card:hover p {
+    color: #333; 
+}
+
+
+
+.services-card .heading4 {
+    margin: 15px 0 10px;
+    font-size: 22px;
+    color: #333; 
+    transition: color 0.3s ease-in-out;
+}
+
+.services-card p {
+    color: #666; 
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* .main { */
+    /* margin: auto; */
+    /* display: flex;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    /* gap: 100px; */
+    /* flex-wrap: wrap; */ 
+
+/* @media (max-width: 580px) {
+    .lastsection {
+        background-color: #191c29;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .lastheading {
+        color: #149af3;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .weith {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .para {
+        font-size: 14px;
+        color: #149af3;
+        margin: 8px 0;
+        font-weight: 400;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 80%;
+    }
+
+    .services-card {
+        width: 80%;
+        padding: 15px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+
+    .services-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .services-card .heading4 {
+        font-size: 18px;
+        color: #333;
+    }
+
+    .services-card p {
+        font-size: 14px;
+        color: #666;
+    }
+} */

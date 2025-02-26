@@ -1,0 +1,52 @@
+.custom-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter {
+    text-align: center;
+  }
+  
+  .counter-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .counter-number-wrapper {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .counter-number {
+    color: #149af3;
+    padding-left: 18px;
+  }
+  
+  .counter-number-suffix {
+    font-size: 36px;
+  }
+  
+  .counter-number-wrapper span {
+    margin-right: 5px;
+  }
+  
+  .counter i {
+    color: white;
+    font-size: 26px;
+    padding: 15px;
+
+  }
